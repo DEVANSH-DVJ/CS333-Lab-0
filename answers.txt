@@ -35,3 +35,13 @@ Exercise 1.
 
 (h) more /proc/stat
   259223296
+
+Exercise 2.
+(a)
+  14996
+
+(b)
+  CPU: 100%, Mem: 0% [VIRT: 4380 KiB]
+
+(c)
+  R - Running
