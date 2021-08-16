@@ -1,1 +1,37 @@
 Answers to Lab 0 (Introduction)
+
+Exercise 1.
+(a) more /proc/cpuinfo
+  "processor" is the index of the processor (hyperthread), "cpu cores" is the number of cores present in CPU
+
+(b) more /proc/cpuinfo
+  6
+
+(c) more /proc/cpuinfo
+  12
+
+(d) more /proc/cpuinfo
+  Processor 0: 800.056 MHz
+  Processor 1: 800.045 MHz
+  Processor 2: 1162.316 MHz
+  Processor 3: 1419.185 MHz
+  Processor 4: 1679.923 MHz
+  Processor 5: 1604.348 MHz
+  Processor 6: 1662.338 MHz
+  Processor 7: 1651.615 MHz
+  Processor 8: 1709.032 MHz
+  Processor 9: 1615.452 MHz
+  Processor 10: 1694.087 MHz
+  Processor 11: 1667.024 MHz
+
+(e) more /proc/meminfo
+  7987416 KiB
+
+(f) more /proc/meminfo
+  346880 KiB
+
+(g) ps -all
+  11083
+
+(h) more /proc/stat
+  259223296
