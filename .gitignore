@@ -1,3 +1,5 @@
 .vscode
 
-PS/intro-code/cpu
+PS/intro-code/*
+!PS/intro-code/*.c
+!PS/intro-code/*.sh
