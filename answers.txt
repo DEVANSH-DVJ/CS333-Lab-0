@@ -45,3 +45,42 @@ Exercise 2.
 
 (c)
   R - Running
+
+Exercise 3.
+(a) ps -ef
+  10392
+
+(b) ps axjf
+  10392
+  9780
+  8408
+  8363
+  8244
+  1970
+  1849
+  1797
+  1774
+  1317
+  1
+
+(c) ll /proc/15805/fd
+  stdin -> /dev/pts/1
+  stdout -> /tmp/tmp.txt
+  stderr -> /dev/pts/1
+
+(d) ps -ef;
+  17203 and 17204
+  17203 (./cpu-print)
+  stdin -> /dev/pts/1
+  stdout -> pipe:[183478]
+  stderr -> /dev/pts/1
+  17204 (grep --color=auto hello)
+  stdin -> pipe:[183478]
+  stdout -> /dev/pts/1
+  stderr -> /dev/pts/1
+
+(e)
+  cd - implemented by bash code
+  ls - executed by bash shell
+  history - implemented by bash code
+  ps - executed by bash shell
