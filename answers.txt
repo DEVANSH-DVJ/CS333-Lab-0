@@ -89,3 +89,8 @@ Exercise 4.
 memory1.c -> Virtual Memory: 8296 KiB, Resident Memory: 804 KiB
 memory2.c -> Virtual Memory: 8296 KiB, Resident Memory: 3296 KiB
 Resident memory is more for second program as part of the array has been assigned value.
+
+Exercise 5.
+disk.c -> Memory Utilization: 100%
+disk1.c -> Memory Utilization: 4%
+As second program reads from same file, it can be cached unlike in first program.
